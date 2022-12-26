@@ -10,7 +10,7 @@ pip install smiles-featurizers
 
 ## Model List
 
-Our released models are listed as following. You can import these models by using the `simcse` package or using [HuggingFace's Transformers](https://github.com/huggingface/transformers). 
+Our released models are listed as following. You can import these models by using the `smiles-featurizers` package or using [HuggingFace's Transformers](https://github.com/huggingface/transformers). 
 |              Model              | Type |
 |:-------------------------------|:--------:|
 |  [shahrukhx01/smole-bert](https://huggingface.co/shahrukhx01/smole-bert) |  Bert|
