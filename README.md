@@ -25,6 +25,7 @@ Our released models are listed as following. You can import these models by usin
 
 ```python
 from smiles_featurizers import BertFeaturizer
+import torch
 
 ## set device
 use_gpu = True if torch.cuda.is_available() else False
@@ -55,22 +56,24 @@ embeddings = featurizer.embed(["CCC(C)(C)Br"], embedder="decoder")
 
 ```python
 from smiles_featurizers import SimcseFeaturizer
+import torch
 
 ## set device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-featurizer = SimcseFeaturizer("shahrukhx01/mv2x-simcse-smole-bert")
-embeddings = featurizer.embed(["CCC(C)(C)Br"], device=device)
+featurizer = SimcseFeaturizer("shahrukhx01/mv2x-simcse-smole-bert", device=device)
+embeddings = featurizer.embed(["CCC(C)(C)Br"])
 ```
 
 ### SentenceTransformer Featurizer
 
 ```python
 from smiles_featurizers import SentenceTransformersFeaturizer
+import torch
 
 ## set device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-featurizer = SentenceTransformersFeaturizer("shahrukhx01/siamese-smole-bert-muv-1x")
-embeddings = featurizer.embed(["CCC(C)(C)Br"], device=device)
+featurizer = SentenceTransformersFeaturizer("shahrukhx01/siamese-smole-bert-muv-1x", device=device)
+embeddings = featurizer.embed(["CCC(C)(C)Br"])
 ```
