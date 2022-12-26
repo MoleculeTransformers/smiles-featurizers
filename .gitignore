@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
+
+
+## torch models, datasets, logs etc.
+*.bin
+*.csv
+*.log
+model
