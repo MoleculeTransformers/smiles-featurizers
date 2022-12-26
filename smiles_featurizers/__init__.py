@@ -1,5 +1,7 @@
-from base_featurizer import BaseFeaturizer
-from sentence_transformers_featurizer import SentenceTransformersFeaturizer
-from simcse_featurizer import SimcseFeaturizer
-from bert_featurizer import BertFeaturizer
-from bart_featurizer import BartFeaturizer
+from smiles_featurizers.base_featurizer import BaseFeaturizer
+from smiles_featurizers.sentence_transformers_featurizer import (
+    SentenceTransformersFeaturizer,
+)
+from smiles_featurizers.simcse_featurizer import SimcseFeaturizer
+from smiles_featurizers.bert_featurizer import BertFeaturizer
+from smiles_featurizers.bart_featurizer import BartFeaturizer
