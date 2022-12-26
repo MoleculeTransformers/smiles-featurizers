@@ -3,7 +3,8 @@
 Extract SMILES embeddings from language models pre-trained with various objectives architectures.
 
 <br/>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wwEy06iqvOznnnep56SgznqkeEHDQOoD?usp=sharing) 
-[![Downloads](https://static.pepy.tech/personalized-badge/smiles-featurizers?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/smiles-featurizers) <br/>
+<!--
+[![Downloads](https://static.pepy.tech/personalized-badge/smiles-featurizers?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/smiles-featurizers) --> <br/>
 
 ## Getting Started
 
