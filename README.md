@@ -61,7 +61,7 @@ import torch
 ## set device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-featurizer = SimcseFeaturizer("shahrukhx01/mv2x-simcse-smole-bert", device=device)
+featurizer = SimcseFeaturizer("shahrukhx01/muv2x-simcse-smole-bert", device=device)
 embeddings = featurizer.embed(["CCC(C)(C)Br"])
 ```
 
