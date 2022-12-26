@@ -5,7 +5,7 @@ from torch import Tensor
 from numpy import ndarray
 
 
-class BERTFeaturizer(BaseFeaturizer):
+class BertFeaturizer(BaseFeaturizer):
     def __init__(
         self,
         model_name_or_path: str,
@@ -30,6 +30,10 @@ class BERTFeaturizer(BaseFeaturizer):
         self, smiles: Union[str, List[str]]
     ) -> Union[List[Tensor], ndarray, Tensor]:
         assert len(smiles) > 0, "SMILES can not be empty!"
+
+        if isinstance(smiles, str):
+            smiles = [smiles]
+
         vectors = self.model.inference_from_dicts(
             dicts=[{"text": smile} for smile in smiles]
         )

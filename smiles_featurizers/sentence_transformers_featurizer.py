@@ -1,7 +1,7 @@
 from typing import List, Union
 from smiles_featurizers import BaseFeaturizer
 from sentence_transformers import SentenceTransformer
-from torch import Tensor, cuda
+from torch import Tensor
 from numpy import ndarray
 
 
