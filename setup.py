@@ -9,21 +9,14 @@ with open("requirements.txt") as f:
 
 setup(
     name="smiles-featurizers",
-    version="1.0.0",
+    version="1.0.2",
     author="Shahrukh Khan",
     author_email="sk28671@gmail.com",
     description="A python library for extracting molecular SMILES embeddings from language models pre-trained with various objectives and/or architectures.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MoleculeTransformers/smiles-featurizers",
-    packages=[
-        "from smiles_featurizers",
-        "smiles_featurizers.base_featurizer",
-        "smiles_featurizers.sentence_transformers_featurizer",
-        "smiles_featurizers.simcse_featurizer",
-        "smiles_featurizers.bert_featurizer",
-        "smiles_featurizers.bart_featurizer",
-    ],
+    packages=["smiles_featurizers"],
     install_requires=required,
     classifiers=[
         "Intended Audience :: Developers",

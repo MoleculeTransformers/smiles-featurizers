@@ -1,5 +1,5 @@
-transformers==4.6.1
+transformers==4.7.0
 farm==0.8.0
 simcse==0.4
-sentence-transformers==2.2.2
 apex==0.9.10.dev0
+sentence-transformers
