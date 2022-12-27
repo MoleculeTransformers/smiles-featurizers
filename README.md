@@ -21,11 +21,11 @@ pip install smiles-featurizers==1.0.8
 Our released models are listed as following. You can import these models by using the `smiles-featurizers` package or using [HuggingFace's Transformers](https://github.com/huggingface/transformers).
 | Model | Type |
 |:-------------------------------|:--------:|
-| [shahrukhx01/smole-bert](https://huggingface.co/shahrukhx01/smole-bert) | Bert|
-| [shahrukhx01/smole-bert-mtr](https://huggingface.co/shahrukhx01/smole-bert-mtr) | Bert|
-| [shahrukhx01/smole-bart](https://huggingface.co/shahrukhx01/smole-bart) | Bart|
-| [shahrukhx01/muv2x-simcse-smole-bart](https://huggingface.co/shahrukhx01/muv2x-simcse-smole-bert) | Simcse|
-| [shahrukhx01/siamese-smole-bert-muv-1x](https://huggingface.co/shahrukhx01/siamese-smole-bert-muv-1x) | SentenceTransformer|
+| [shahrukhx01/smole-bert](https://huggingface.co/shahrukhx01/smole-bert) | `Bert`|
+| [shahrukhx01/smole-bert-mtr](https://huggingface.co/shahrukhx01/smole-bert-mtr) | `Bert`|
+| [shahrukhx01/smole-bart](https://huggingface.co/shahrukhx01/smole-bart) | `Bart`|
+| [shahrukhx01/muv2x-simcse-smole-bart](https://huggingface.co/shahrukhx01/muv2x-simcse-smole-bert) | `Simcse`|
+| [shahrukhx01/siamese-smole-bert-muv-1x](https://huggingface.co/shahrukhx01/siamese-smole-bert-muv-1x) | `SentenceTransformer`|
 
 ## Use SMILES Featurizers
 
