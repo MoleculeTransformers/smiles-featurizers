@@ -1,6 +1,6 @@
 # SMILES Featurizers
 
-Extract SMILES embeddings from language models pre-trained with various objectives architectures.
+Extract Molecular SMILES embeddings from language models pre-trained with various objectives architectures.
 
 
 <!--
