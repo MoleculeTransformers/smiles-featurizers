@@ -8,7 +8,7 @@ Extract Molecular SMILES embeddings from language models pre-trained with variou
 ## Getting Started
 
 ### Colab Example Notebook
-<br/> [![Downloads](https://static.pepy.tech/personalized-badge/smiles-featurizers?period=total&units=international_system&left_color=black&right_color=yellow&left_text=Downloads)](https://pepy.tech/project/smiles-featurizers)
+<br/> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wwEy06iqvOznnnep56SgznqkeEHDQOoD?usp=sharing) 
 ### Install using Pip
 
 ```bash
